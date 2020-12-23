@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MY SCHOOL</title>
+  <link href="STYLE3.css" rel="stylesheet" type="text/css">
+<!--  fontawesome-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="my_menu">
+  <ul class="menu">
+    <li class="logo_li"><a href="#">My School</a></li>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="index.html">Courses  <i class="fas fa-sort-down"></i></a>
+       <ul>
+           <li><a href="science.html">SCIENCE</a></li>
+           <li><a href="commerce.html">COMMERCE</a></li>
+           <li><a href="arts.html">ARTS</a></li>
+           <li><a href="diploma.html">DIPLOMA</a></li> 
+       </ul>
+     
+      </li>
+     <li><a href="W.html">Why Choose us</a></li>
+     <li><a href="A.html">About us</a></li>
+     <li><a href="C.html">Contact us</a></li>
+ </ul>
+ </div>
+<!-- banner-->
+<div id="banner">
+ <img alt=class="n3VNCb" src="data:image/png;base64,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"  data-noaft="1" jsname="HiaYvf" jsaction="load:XAeZkd;  style="width: 100%; height: 100%; margin: 0px;">
+ 
+</div> 
+
+ <center>
+<h2>WHY CHOOSE US</h2>
+<P>VIBRANT CAMPUS
+ <B>
+On visiting the school, one is stuck by the lush green campus, the architectural beauty and soothing ambience. Far from the hustle and bustle of towns and cities, the essence of Indian ethos is so immaculately preserved that it would not be an exaggeration to call BRCM and an epitome of Gurukul System in tune with modern times. The school sprawls over 70 acre land dotted with an excellent infrastructure. A tranquil environment encourages the inner peace, which is often necessary and so conducive for learning process of Boarding House System, rated as one of the best in the league of residential public schools in the country.
+ 
+In an Eco-friendly campus we can boast of not only being pollution free but also environment nurturing through our Sewage Treatment Plant and Paper recycling Plant.
+ 
+WIDE CURRICULUM CHOICE </p>
+<P2>
+ 
+Multi-disciplines of Science and Commerce are offered in the Senior Secondary curriculum. The curriculum has been designed to meet the requirements and stipulation of the Central Board of Secondary Education (CBSE), Delhi. Entrepreneurship, Biotechnology & Fashion Studies also been included in the subjects offered at senior secondary level.
+ 
+TEAM OF PROFESSIONALS </P2>
+ </P3>
+<p4>
+ An ideal Teacher-Student ratio (1:15) ensures that each student gets personal attention. Professionally competent and dedicated faculty having a single-minded objective to bring out the best in all the children entrusted to their care.
+ 
+EXCELLENT INFRASTRUCTURE
+
+ 
+Well equipped and well furnished Labs with excellent facilities for practical work English Language Teaching (ELT) Centre/Language Lab for imparting communication skills in English with an emphasis on individual and group learning. The IT enabled language lab is supported by Audio Visual aids and software to develop the four linguistic skills, viz. Listening, Reading & Speaking. Air conditioned Audio Visual room and Auditorium The school has a state-of-art Computer Lab with an internet facility through 8 MBPS optical dedicated leased line. Well furnished Library connected on LAN with internet browsing facility stacks more than 15,000 books, regularly subscribed periodicals and journals. Scholarships to meritorious students and those excelling in Co-curricular and Extra-curricular activities. Career counseling facilities and coaching classes for competitive examinations like IIT & PMT entrance tests.
+ 
+OPPORTUNITIES OF HIGHER EDUCATION
+ 
+A few Seats are reserved for the students passing out from the school. </p4>
+ 
+SCHOLARSHIPS  </B>
+ 
+
+ </center>
+    
+                
+                            
+                                        
+                                                                
+ <section class="footer">
+     <div class="footer_div">
+         <h1>ABOUT US</h1>
+         <p>Oxford Convent Hr.Sec.School was established in 1996 in karond Bhopal.We Working From 19 to 20 years with Positive Attitued,<br>
+<button type="button">Read More</button>
+         </p>
+     </div>
+     
+          <div class="footer_div">
+         <h1>ABOUT </h1>
+         <ul>
+              <li><a href="#">About School</a></li>
+             <li><a href="#">Director Message</a></li>
+             <li><a href="#">Principal Message</a></li>
+             <li><a href="#">Our Motto</a></li> 
+         </ul> 
+         
+     </div>
+     
+          <div class="footer_div">
+         <h1>ACADEMICS</h1>
+            <ul>
+             <li><a href="#">Admission Procedure</a></li>
+             <li><a href="#">Sports Corner</a></li>
+             <li><a href="#">Library</a></li>
+             <li><a href="#">Dimensions Of School</a></li> 
+             <li><a href="#">Transport Facility</a></li>  
+         </ul>
+     </div>
+     
+          <div class="footer_div">
+         <h1>SOCIAL LINKS</h1>
+         <div class="social_link">
+        <i class="fab fa-facebook-square fa-2x"></i>
+        <i class="fab fa-twitter-square fa-2x"></i>
+        </div>
+     </div>
+     
+    <div class="under_footer">
+     <div class="footer1"><p>Copyright © All Rights Reserved</p></div>
+     <div class="footer1"><p>Designed by HEX CODERS</p></div>
+     
+ </div> 
+
+
+     
+     
+ </section>
+
+
+
+
+ 
+</body>
+</html>
